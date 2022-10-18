@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #5C9DF2;
+}
+header{
+    height: auto;
+    background-color: #0D65D9;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    padding: 15px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Direcionamento > a{
+    margin: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+main{
+    width: 1000px;
+    margin: auto;
+}
+#inicio{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    height: 450px;
+    align-items: center;
+    border-bottom: solid 0.5px white;
+}
+.inicio{
+    width: 400px;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.inicio > h1{
+    text-align: center;
+}
+.imgperfil{
+    width: 400px;
+}
+
+.imgperfil > img{
+    width: 60%;
+    border-radius: 100%;
+}
+.logos{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100%;
+    align-content: space-around;
+    border: solid 6px #94BDF2;
+}
+.logos > img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+
+}
+#competencias{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    border-bottom: solid 0.5px white;
+}
+
+#portiforio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+.container{
+    width: 330px;
+    height: 300px;
+    background-color: #94BDF2;
+    text-align: center;
+
+
+
+}
+.container div img{
+    width: 320px;
+    height: 170px;
+    display: block;
+    margin: auto;
+    
+    
+
+}
+.title{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.text{
+    background-color: #F2F2F2;
+    margin: 10px;
+    
+}
+
+.container button{
+    background-color: #0D65D9;
+    color: white;
+    padding: 8px;
+}
+.container button a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+footer{
+    background-color: #0D65D9;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+
+}
+footer div img{
+    width: 25px;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.imgcontato a{
+    margin: 10px;
+}
+
+@media(max-width: 1000px){
+    main{
+        width: 700px;
+    }
+    #portiforio{
+        display: block;
+        height: 1000px;
+        margin: auto;
+    }
+    .container{
+        margin: 20px auto 20px auto
+    }
+}
+
+@media(max-width: 700px){
+    main{
+        width: 400px;
+    }
+    nav a{
+        display: block;
+    }
+    #inicio{
+        display: block;
+        height: auto;
+        justify-content: center;
+    }
+    .imgperfil img{
+        display: block;
+        margin: auto;
+    }
+    #competencias{
+        display: block;
+        height: auto;
+        margin: auto;
+    }
+    .logos{
+        display: block;
+        margin: auto;
+        margin: 20px auto 20px auto;
+    }
+}
